@@ -181,12 +181,103 @@
 //? Assinment Q13
 //! Swapping Without Third Variable – Take two numbers from the user and swap their values without using a third variable.
 
-let num1 = Number(prompt("Enter your first number"));
-let num2 = Number(prompt("Enter your second number"));
+// let num1 = Number(prompt("Enter your first number"));
+// let num2 = Number(prompt("Enter your second number"));
 
-num1 = num1 + num2;
-num2 = num1 - num2;
-num1 = num1 - num2;
+// num1 = num1 + num2;
+// num2 = num1 - num2;
+// num1 = num1 - num2;
 
-console.log(num1);
-console.log(num2);
+// console.log(num1);
+// console.log(num2);
+
+//? Assinment Q14
+//! FizzBuzz (Multiple of Both) – Ask the user for a number. If it's a multiple of both 3 and 5, print “FizzBuzz”; if only 3, print “Fizz”; if only 5, print “Buzz”; otherwise, print the number itself.
+
+// let num = Number(prompt("Enter a number"))
+
+// if (num % 3 == 0 && num % 5 == 0) {
+//     console.log("FizzBuzz");
+// } else if (num % 3 == 0) {
+//     console.log("Fizz");
+// } else if (num % 5 == 0) {
+//     console.log("Buzz");
+// } else {
+//     console.log(num);
+// }
+
+//? Assinment Q15
+//! Number Reversal – Take a three-digit number from the user and print its reverse. (Example: 123 → 321).
+
+// let num = Number(prompt("Enter a three-digit number"));
+// let reversedNum = Number(num.toString().split('').reverse().join(''));
+// console.log(reversedNum);
+
+//? Assinment Q16
+//! Sum of Digits – Take a number from the user and print the sum of its digits. (Example: 123 → 1+2+3 = 6).
+
+
+// let n= 123
+// sum = 0
+
+// while ( n > 0) {
+//     sum += n % 10
+//     n = Math.floor(n / 10)
+
+// }
+// console.log(sum)
+
+//? Assinment Q17
+//! Palindrome Checker – Ask the user for a word. Check if it reads the same forward and backward. Print “Palindrome”or “Not a Palindrome.”
+
+// let word = prompt("Enter a word");
+// let reversedWord = word.split('').reverse().join('');
+
+// if (word === reversedWord) {
+//     console.log("Palindrome");
+// } else {
+//     console.log("Not a Palindrome");
+//}
+
+//? Assinment Q18
+//! Reverse Without String Methods – Ask the user for a number and reverse it without using .split(), .reverse(), or .join().
+
+// let num = prompt("Enter a number")
+
+// let reverseNum = 0
+
+// while (num > 0) {
+//     reverseNum = (num % 10) + (reverseNum * 10)
+//     num = Math.floor(num / 10)
+// }
+
+// console.log(reverseNum)
+
+//? Assinment Q19
+//! Find Second Largest – Take three numbers as input and find the second largest number (without using sort() or Math.max()).
+
+// let num1 = Number(prompt("Enter your first number"));
+// let num2 = Number(prompt("Enter your second number"));
+// let num3 = Number(prompt("Enter your third number"));
+
+// if(num1 > num2 && num1 > num3){
+//     if(num2 > num3){
+//         console.log(num2)
+//     }else{
+//         console.log(num3)
+//     }
+// } else if(num2 > num1 && num2 > num3){
+//     if(num1 > num3){
+//         console.log(num1)
+//     }else{
+//         console.log(num3)
+//     }
+// } else {
+//     if(num1 > num2){
+//         console.log(num1)
+//     }else{
+//         console.log(num2)
+//     }
+// }
+
+
